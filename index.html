@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>点子开关知识库助手</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7fb;
+      --text: #172033;
+      --muted: #5d667a;
+      --line: #d8deea;
+      --accent: #1f7af2;
+      --accent-dark: #165fc0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .page {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .brand {
+      min-width: 0;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.3;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .brand p {
+      margin: 3px 0 0;
+      font-size: 13px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .open-link {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .open-link:hover {
+      background: var(--accent-dark);
+    }
+
+    .chat-frame {
+      width: 100%;
+      height: 100%;
+      min-height: 640px;
+      border: 0;
+      background: #fff;
+    }
+
+    @media (max-width: 640px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .open-link {
+        width: 100%;
+      }
+
+      .chat-frame {
+        min-height: calc(100vh - 124px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="brand">
+        <h1>点子开关知识库助手</h1>
+        <p>严格根据企业知识库回答问题。</p>
+      </div>
+      <a class="open-link" href="https://udify.app/chat/fkd5nkmyp0TgBIAS" target="_blank" rel="noreferrer">
+        新窗口打开
+      </a>
+    </header>
+
+    <iframe
+      class="chat-frame"
+      src="https://udify.app/chat/fkd5nkmyp0TgBIAS"
+      title="点子开关知识库助手"
+      allow="microphone">
+    </iframe>
+  </main>
+</body>
+</html>
