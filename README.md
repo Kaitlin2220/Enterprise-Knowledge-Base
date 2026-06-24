@@ -79,7 +79,7 @@
 
 访问 Dify 聊天助手：
 
-https://udify.app/chat/fkd5nkmyp0TgBIAS
+https://udify.app/chat/yJIaGmjBKHIGl9Wg
 
 ## 技术说明
 
